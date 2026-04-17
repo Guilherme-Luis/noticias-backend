@@ -74,8 +74,9 @@ app.post("/noticias", (req, res) => {
 app.get("/", (req, res) => {
     res.json({
         status: "Backend de Notícias rodando",
-        versao: "1.0.0",
-        cors_ativo: true
+        versao: "1.0.1",
+        cors_ativo: true,
+        frontend_integrado: true
     });
 });
 
