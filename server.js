@@ -35,7 +35,7 @@ let noticias = [
 // GET: listar todas as notícias
 app.get("/noticias", (req, res) => {
     res.json({
-        mensagem: "Notícias carregadas",
+        mensagem: "Será que as Notícias foram carregadas?",
         total: noticias.length,
         noticias: noticias
     });
